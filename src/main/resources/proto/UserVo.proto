@@ -1,0 +1,11 @@
+syntax = "proto3";
+package com.havenspool.nettyprotobuf.proto;
+
+option java_package = "com.havenspool.nettyprotobuf.proto";
+option java_outer_classname = "User";
+
+message UserVo{
+    int32 id = 1;
+    string name = 2;
+    string pwd = 3;
+}
